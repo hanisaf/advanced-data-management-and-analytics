@@ -27,9 +27,9 @@
 | 23  |                               | Working with time series                | PDSH.3.11             |                |
 | 24  |                               | High performance Pandas                 | PDSH.3.12             |                |
 | 25  |                               | Pivot tables                            | PDSH.3.9              |                |
-| 26  | Data integration              | APIs: JSON, REST & GraphQL              | WEB.1, WEB.12, WEB.13 |                |
-| 27  |                               | APIs: XML, XPATH & XQUERY               | WEB.14, WEB.15        |                |
-| 28  |                               | HTML scraping                           | WEB.3                 |                |
+| 26  | Data integration              | APIs: JSON, REST & GraphQL              | WEB.1, WEB.12, WEB.13 | [Introduction](https://youtu.be/qF6tD0LMBeQ)               |
+| 27  |                               | APIs: XML, XPATH & XQUERY               | WEB.14, WEB.15        | [Introduction](https://youtu.be/XQYZsVPPAtc)               |
+| 28  |                               | HTML scraping                           | WEB.3                 | [Introduction](https://youtu.be/1N0QnYqnhuA)              |
 | 29  | Data visualization            | Principles of data visualization        | JOUR.2, WEB.4         |                |
 | 30  |                               | Introduction to Altair                  | VISU.1                |                |
 | 31  |                               | Types, marks, and encoding channels     | VISU.2                |                |
