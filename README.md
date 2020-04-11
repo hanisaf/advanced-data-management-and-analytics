@@ -2,19 +2,19 @@
 
 |  #  |             Theme             |                 Topics                  |       Readings        | Video Lectures |
 | --- | ----------------------------- | --------------------------------------- | --------------------- | -------------- |
-| 01  |                               | Course introduction                     | JOUR.1                |                |
-| 02  |                               | Markdown language                       | WEB.0                 |                |
-| 03  | Python language fundamentals  | Variables                               | WTOP.3, WTOP.4        |                |
-| 04  |                               | Operators                               | WTOP.5                |                |
-| 05  |                               | Types                                   | WTOP.6                |                |
-| 06  |                               | String                                  | WTOP.15               |                |
-| 07  |                               | Control flow                            | WTOP.8                |                |
-| 08  |                               | Functions                               | WTOP.9                |                |
-| 09  | Data manipulation with Python | Built-in data structures                | WTOP.7                |                |
-| 10  |                               | List comprehensions                     | WTOP.12               |                |
-| 11  |                               | Regular expressions                     | WTOP.15               |                |
-| 12  |                               | Generators and generator expressions    | WTOP.13               |                |
-| 13  |                               | Modules and packages                    | WTOP.14               |                |
+| 01  |                               | Course introduction                     | [JOUR.1](https://www.academia.edu/33249922/Should_You_Pursue_a_Career_in_BI_Analytics), [WTOP.1](https://jakevdp.github.io/WhirlwindTourOfPython/00-introduction.html)                |                |
+| 02  |                               | Markdown language                       | [WEB.0](https://guides.github.com/features/mastering-markdown/), [WTOP.2](https://jakevdp.github.io/WhirlwindTourOfPython/01-how-to-run-python-code.html)                 |                |
+| 03  | Python language fundamentals  | Variables                               | [WTOP.3](https://jakevdp.github.io/WhirlwindTourOfPython/02-basic-python-syntax.html), [WTOP.4](https://jakevdp.github.io/WhirlwindTourOfPython/03-semantics-variables.html)        |                |
+| 04  |                               | Operators                               | [WTOP.5](https://jakevdp.github.io/WhirlwindTourOfPython/04-semantics-operators.html)                |                |
+| 05  |                               | Types                                   | [WTOP.6](https://jakevdp.github.io/WhirlwindTourOfPython/05-built-in-scalar-types.html)                |                |
+| 06  |                               | String                                  | [WTOP.15](https://jakevdp.github.io/WhirlwindTourOfPython/14-strings-and-regular-expressions.html)               |                |
+| 07  |                               | Control flow                            | [WTOP.8](https://jakevdp.github.io/WhirlwindTourOfPython/07-control-flow-statements.html)  [WTOP.10](https://jakevdp.github.io/WhirlwindTourOfPython/09-errors-and-exceptions.html)              |                |
+| 08  |                               | Functions                               | [WTOP.9](https://jakevdp.github.io/WhirlwindTourOfPython/08-defining-functions.html)                |                |
+| 09  | Data manipulation with Python | Built-in data structures                | [WTOP.7](https://jakevdp.github.io/WhirlwindTourOfPython/06-built-in-data-structures.html)                |                |
+| 10  |                               | List comprehensions                     | [WTOP.12](https://jakevdp.github.io/WhirlwindTourOfPython/11-list-comprehensions.html)               |                |
+| 11  |                               | Regular expressions                     | [WTOP.15](https://jakevdp.github.io/WhirlwindTourOfPython/14-strings-and-regular-expressions.html)               |                |
+| 12  |                               | Generators and generator expressions    | [WTOP.13](https://jakevdp.github.io/WhirlwindTourOfPython/12-generators.html)               |                |
+| 13  |                               | Modules and packages                    | [WTOP.14](https://jakevdp.github.io/WhirlwindTourOfPython/13-modules-and-packages.html)               |                |
 | 14  | Data organization with Pandas | DataFrame and Series                    | PDSH.3.1              |                |
 | 15  |                               | Data indexing and selection             | PDSH.3.2              |                |
 | 16  |                               | Operating on data in Pandas             | PDSH.3.3              |                |
@@ -30,7 +30,7 @@
 | 26  | Data integration              | APIs: JSON, REST & GraphQL              | WEB.1, WEB.12, WEB.13 | [Introduction](https://youtu.be/qF6tD0LMBeQ)               |
 | 27  |                               | APIs: XML, XPATH & XQUERY               | WEB.14, WEB.15        | [Introduction](https://youtu.be/XQYZsVPPAtc)               |
 | 28  |                               | HTML scraping                           | WEB.3                 | [Introduction](https://youtu.be/1N0QnYqnhuA)              |
-| 29  | Data visualization            | Principles of data visualization        | JOUR.2, WEB.4         |                |
+| 29  | Data visualization            | Principles of data visualization        | [JOUR.2](https://www.researchgate.net/publication/316605154_Data_Visualization_Data_Interpreters_and_Storytelling), WEB.4         |                |
 | 30  |                               | Introduction to Altair                  | VISU.1                |                |
 | 31  |                               | Types, marks, and encoding channels     | VISU.2                |                |
 | 32  |                               | Data transformation                     | VISU.3                |                |
@@ -46,7 +46,7 @@
 | 42  |                               | Linear regression                       | PDSH.5.6              |                |
 | 43  |                               | Decision trees                          | PDSH.5.8              |                |
 | 44  |                               | Clustering                              | PDSH.5.11             |                |
-| 45  |                               | Course wrap-up                          | JOUR.3                |                |
+| 45  |                               | Course wrap-up                          | [JOUR.3](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century)                |                |
 
 ## Source Code
 
