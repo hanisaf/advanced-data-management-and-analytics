@@ -15,18 +15,17 @@
 | 11  |                               | Regular expressions                     | [WTOP.15](https://jakevdp.github.io/WhirlwindTourOfPython/14-strings-and-regular-expressions.html)               |                |
 | 12  |                               | Generators and generator expressions    | [WTOP.13](https://jakevdp.github.io/WhirlwindTourOfPython/12-generators.html)               |                |
 | 13  |                               | Modules and packages                    | [WTOP.14](https://jakevdp.github.io/WhirlwindTourOfPython/13-modules-and-packages.html)               |                |
-| 14  | Data organization with Pandas | DataFrame and Series                    | PDSH.3.1              |                |
-| 15  |                               | Data indexing and selection             | PDSH.3.2              |                |
-| 16  |                               | Operating on data in Pandas             | PDSH.3.3              |                |
-| 17  |                               | Handling missing data                   | PDSH.3.4              |                |
-| 18  |                               | Hierarchical indexing                   | PDSH.3.5              |                |
-| 19  | Data transformation           | Combining datasets: concat & append     | PDSH.3.6              |                |
-| 20  |                               | Combining datasets: merge & join        | PDSH.3.7              |                |
-| 21  |                               | Aggregation and grouping                | PDSH.3.8              |                |
-| 22  |                               | Vectorized string operations            | PDSH.3.10             |                |
-| 23  |                               | Working with time series                | PDSH.3.11             |                |
-| 24  |                               | High performance Pandas                 | PDSH.3.12             |                |
-| 25  |                               | Pivot tables                            | PDSH.3.9              |                |
+| 14  | Data organization with Pandas | DataFrame and Series                    | [PDSH.3.1](https://jakevdp.github.io/PythonDataScienceHandbook/03.01-introducing-pandas-objects.html)              |                |
+| 15  |                               | Data indexing and selection             | [PDSH.3.2](https://jakevdp.github.io/PythonDataScienceHandbook/03.02-data-indexing-and-selection.html)              |                |
+| 16  |                               | Operating on data in Pandas             | [PDSH.3.3](https://jakevdp.github.io/PythonDataScienceHandbook/03.03-operations-in-pandas.html)              |                |
+| 17  |                               | Handling missing data                   | [PDSH.3.4](https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html)              |                |
+| 18  |                               | Hierarchical indexing                   | [PDSH.3.5](https://jakevdp.github.io/PythonDataScienceHandbook/03.05-hierarchical-indexing.html)              |                |
+| 19  | Data transformation           | Combining datasets: concat & append     | [PDSH.3.6](https://jakevdp.github.io/PythonDataScienceHandbook/03.06-concat-and-append.html)              |                |
+| 20  |                               | Combining datasets: merge & join        | [PDSH.3.7](https://jakevdp.github.io/PythonDataScienceHandbook/03.07-merge-and-join.html)              |                |
+| 21  |                               | Aggregation and grouping                | [PDSH.3.8](https://jakevdp.github.io/PythonDataScienceHandbook/03.08-aggregation-and-grouping.html)             |                |
+| 22  |                               | Vectorized string operations            | [PDSH.3.10](https://jakevdp.github.io/PythonDataScienceHandbook/03.10-working-with-strings.html)             |                |
+| 23  |                               | Working with time series                | [PDSH.3.11](https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html)             |                |
+| 24  |                               | High performance Pandas                 | [PDSH.3.12](https://jakevdp.github.io/PythonDataScienceHandbook/03.12-performance-eval-and-query.html)             |                |
 | 26  | Data integration              | APIs: JSON, REST & GraphQL              | WEB.1, WEB.12, WEB.13 | [Introduction](https://youtu.be/qF6tD0LMBeQ)               |
 | 27  |                               | APIs: XML, XPATH & XQUERY               | WEB.14, WEB.15        | [Introduction](https://youtu.be/XQYZsVPPAtc)               |
 | 28  |                               | HTML scraping                           | WEB.3                 | [Introduction](https://youtu.be/1N0QnYqnhuA)              |
