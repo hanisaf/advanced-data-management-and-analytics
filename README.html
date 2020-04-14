@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Advanced Data Management and Analytics</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        
+    </head>
+    <body class="vscode-light">
+        <h1 id="advanced-data-management-and-analytics">Advanced Data Management and Analytics</h1>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Theme</th>
+<th>Topics</th>
+<th>Readings</th>
+<th>Video Lectures</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01</td>
+<td></td>
+<td>Course introduction</td>
+<td><a href="https://www.academia.edu/33249922/Should_You_Pursue_a_Career_in_BI_Analytics">JOUR.1</a>, <a href="https://jakevdp.github.io/WhirlwindTourOfPython/00-introduction.html">WTOP.1</a></td>
+<td></td>
+</tr>
+<tr>
+<td>02</td>
+<td></td>
+<td>Markdown language</td>
+<td><a href="https://guides.github.com/features/mastering-markdown/">WEB.0</a>, <a href="https://jakevdp.github.io/WhirlwindTourOfPython/01-how-to-run-python-code.html">WTOP.2</a></td>
+<td><a href="https://www.youtube.com/watch?v=aEBa-AKYfko">Introduction</a> <a href="https://www.youtube.com/watch?v=KhXL6PrceMM">Warmup</a> <a href="https://www.youtube.com/watch?v=iDcLtmgKQQI">Workout</a></td>
+</tr>
+<tr>
+<td>03</td>
+<td>Python language fundamentals</td>
+<td>Variables</td>
+<td><a href="https://jakevdp.github.io/WhirlwindTourOfPython/02-basic-python-syntax.html">WTOP.3</a>, <a href="https://jakevdp.github.io/WhirlwindTourOfPython/03-semantics-variables.html">WTOP.4</a></td>
+<td><a href="https://www.youtube.com/watch?v=iXkMAFvhgqk">Introduction</a> <a href="https://www.youtube.com/watch?v=eJD-Uu-rEhE">Warmup</a> <a href="https://www.youtube.com/watch?v=DPusM5pn_Us">Workout</a></td>
+</tr>
+<tr>
+<td>04</td>
+<td></td>
+<td>Operators</td>
+<td><a href="https://jakevdp.github.io/WhirlwindTourOfPython/04-semantics-operators.html">WTOP.5</a></td>
+<td><a href="https://www.youtube.com/watch?v=Mh7hT92B0Qw">Introduction</a> <a href="https://www.youtube.com/watch?v=mChZ2wK_kmg">Warmup</a> <a href="https://www.youtube.com/watch?v=z2nMP02wgJc">Workout</a></td>
+</tr>
+<tr>
+<td>05</td>
+<td></td>
+<td>Types</td>
+<td><a href="https://jakevdp.github.io/WhirlwindTourOfPython/05-built-in-scalar-types.html">WTOP.6</a></td>
+<td><a href="https://www.youtube.com/watch?v=lIkkGlUAaTQ">Introduction</a> <a href="https://www.youtube.com/watch?v=SbjIqJOI1NM">Warmup</a> <a href="https://www.youtube.com/watch?v=fM7fFQDLJZg">Workout</a></td>
+</tr>
+<tr>
+<td>06</td>
+<td></td>
+<td>String</td>
+<td><a href="https://jakevdp.github.io/WhirlwindTourOfPython/14-strings-and-regular-expressions.html">WTOP.15</a></td>
+<td><a href="https://www.youtube.com/watch?v=O4U1CmWTtbI">Introduction</a> <a href="https://www.youtube.com/watch?v=wzzgfqd43fk">Warmup</a> <a href="https://www.youtube.com/watch?v=lFPd_RywH74">Workout</a></td>
+</tr>
+<tr>
+<td>07</td>
+<td></td>
+<td>Control flow</td>
+<td><a href="https://jakevdp.github.io/WhirlwindTourOfPython/07-control-flow-statements.html">WTOP.8</a>  <a href="https://jakevdp.github.io/WhirlwindTourOfPython/09-errors-and-exceptions.html">WTOP.10</a></td>
+<td><a href="https://www.youtube.com/watch?v=xN-Okw-gLRg">Introduction</a> <a href="https://www.youtube.com/watch?v=LvNvLcbtmws">Warmup</a> <a href="https://www.youtube.com/watch?v=Sep6LQxwubY">Workout</a></td>
+</tr>
+<tr>
+<td>08</td>
+<td></td>
+<td>Functions</td>
+<td><a href="https://jakevdp.github.io/WhirlwindTourOfPython/08-defining-functions.html">WTOP.9</a></td>
+<td><a href="https://www.youtube.com/watch?v=mmXawzBGhFI">Introduction</a> <a href="https://www.youtube.com/watch?v=dCDmkMd539A">Warmup</a> <a href="https://www.youtube.com/watch?v=WLmVdupGluk">Workout</a></td>
+</tr>
+<tr>
+<td>09</td>
+<td>Data manipulation with Python</td>
+<td>Built-in data structures</td>
+<td><a href="https://jakevdp.github.io/WhirlwindTourOfPython/06-built-in-data-structures.html">WTOP.7</a></td>
+<td><a href="https://www.youtube.com/watch?v=xxFUxggxFOI">Introduction</a> <a href="https://www.youtube.com/watch?v=d7IN5-hx78Q">Warmup</a> <a href="https://www.youtube.com/watch?v=x6ERWmDIftA">Workout</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td></td>
+<td>List comprehensions</td>
+<td><a href="https://jakevdp.github.io/WhirlwindTourOfPython/11-list-comprehensions.html">WTOP.12</a></td>
+<td><a href="https://www.youtube.com/watch?v=xz9VsGTOwlY">Introduction</a> <a href="https://www.youtube.com/watch?v=QlyNDM98d7k">Warmup</a> <a href="https://www.youtube.com/watch?v=Hun1pZb6_3k">Workout</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td></td>
+<td>Regular expressions</td>
+<td><a href="https://jakevdp.github.io/WhirlwindTourOfPython/14-strings-and-regular-expressions.html">WTOP.15</a></td>
+<td><a href="https://www.youtube.com/watch?v=uoLesrS8mZw">Introduction</a> <a href="https://www.youtube.com/watch?v=_WEjBUFdqyA">Warmup</a> <a href="https://www.youtube.com/watch?v=SAEWwAHcQz8">Workout</a></td>
+</tr>
+<tr>
+<td>12</td>
+<td></td>
+<td>Generators and generator expressions</td>
+<td><a href="https://jakevdp.github.io/WhirlwindTourOfPython/12-generators.html">WTOP.13</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>13</td>
+<td></td>
+<td>Modules and packages</td>
+<td><a href="https://jakevdp.github.io/WhirlwindTourOfPython/13-modules-and-packages.html">WTOP.14</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Data organization with Pandas</td>
+<td>DataFrame and Series</td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/03.01-introducing-pandas-objects.html">PDSH.3.1</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>15</td>
+<td></td>
+<td>Data indexing and selection</td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/03.02-data-indexing-and-selection.html">PDSH.3.2</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>16</td>
+<td></td>
+<td>Operating on data in Pandas</td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/03.03-operations-in-pandas.html">PDSH.3.3</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>17</td>
+<td></td>
+<td>Handling missing data</td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html">PDSH.3.4</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>18</td>
+<td></td>
+<td>Hierarchical indexing</td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/03.05-hierarchical-indexing.html">PDSH.3.5</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>19</td>
+<td>Data transformation</td>
+<td>Combining datasets: concat &amp; append</td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/03.06-concat-and-append.html">PDSH.3.6</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>20</td>
+<td></td>
+<td>Combining datasets: merge &amp; join</td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/03.07-merge-and-join.html">PDSH.3.7</a></td>
+<td></td>
+</tr>
+<tr>
+<td>21</td>
+<td></td>
+<td>Aggregation and grouping</td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/03.08-aggregation-and-grouping.html">PDSH.3.8</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>22</td>
+<td></td>
+<td>Vectorized string operations</td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/03.10-working-with-strings.html">PDSH.3.10</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>23</td>
+<td></td>
+<td>Working with time series</td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html">PDSH.3.11</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>24</td>
+<td></td>
+<td>High performance Pandas</td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/03.12-performance-eval-and-query.html">PDSH.3.12</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>25</td>
+<td></td>
+<td>Pivot tables</td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/03.09-pivot-tables.html">PDSH.3.9</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>26</td>
+<td>Data integration</td>
+<td>APIs: JSON, REST &amp; GraphQL</td>
+<td><a href="https://realpython.com/python-requests/">WEB.1</a>, <a href="https://www.dataquest.io/blog/python-api-tutorial/">WEB.12</a>, <a href="https://www.howtographql.com/basics/1-graphql-is-the-better-rest/">WEB.13</a></td>
+<td><a href="https://youtu.be/qF6tD0LMBeQ">Introduction</a></td>
+</tr>
+<tr>
+<td>27</td>
+<td></td>
+<td>APIs: XML, XPATH &amp; XQUERY</td>
+<td><a href="https://www.datacamp.com/community/tutorials/python-xml-elementtree">WEB.14</a>, <a href="https://www.w3schools.com/xml/xquery_intro.asp">WEB.15</a></td>
+<td><a href="https://youtu.be/XQYZsVPPAtc">Introduction</a></td>
+</tr>
+<tr>
+<td>28</td>
+<td></td>
+<td>HTML scraping</td>
+<td><a href="https://www.dataquest.io/blog/web-scraping-tutorial-python/">WEB.3</a></td>
+<td><a href="https://youtu.be/1N0QnYqnhuA">Introduction</a></td>
+</tr>
+<tr>
+<td>29</td>
+<td>Data visualization</td>
+<td>Principles of data visualization</td>
+<td><a href="https://www.researchgate.net/publication/316605154_Data_Visualization_Data_Interpreters_and_Storytelling">JOUR.2</a>, <a href="https://www.cs.ubc.ca/~tmm/courses/531-16/lectures/lect1.pdf">WEB.4</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>30</td>
+<td></td>
+<td>Introduction to Altair</td>
+<td><a href="https://nbviewer.jupyter.org/github/uwdata/visualization-curriculum/blob/master/altair_introduction.ipynb">VISU.1</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>31</td>
+<td></td>
+<td>Types, marks, and encoding channels</td>
+<td><a href="https://nbviewer.jupyter.org/github/uwdata/visualization-curriculum/blob/master/altair_marks_encoding.ipynb">VISU.2</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>32</td>
+<td></td>
+<td>Data transformation</td>
+<td><a href="https://nbviewer.jupyter.org/github/uwdata/visualization-curriculum/blob/master/altair_data_transformation.ipynb">VISU.3</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>33</td>
+<td></td>
+<td>Scales, axes, and legends</td>
+<td><a href="https://nbviewer.jupyter.org/github/uwdata/visualization-curriculum/blob/master/altair_scales_axes_legends.ipynb">VISU.4</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>34</td>
+<td></td>
+<td>Multi-view composition</td>
+<td><a href="https://nbviewer.jupyter.org/github/uwdata/visualization-curriculum/blob/master/altair_view_composition.ipynb">VISU.5</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>35</td>
+<td></td>
+<td>Interaction</td>
+<td><a href="https://nbviewer.jupyter.org/github/uwdata/visualization-curriculum/blob/master/altair_interaction.ipynb">VISU.6</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>36</td>
+<td>Text analytics</td>
+<td>Syntax: tokenization and POS tagging</td>
+<td><a href="http://rwet.decontextualize.com/book/textblob/">WEB.9</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>37</td>
+<td></td>
+<td>Semantics: sentiment and named entities</td>
+<td><a href="https://spacy.io/usage/spacy-101">WEB.11</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>38</td>
+<td>Network analytics</td>
+<td>Basic network concepts</td>
+<td><a href="http://networksciencebook.com/chapter/1">NETS.1</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>39</td>
+<td></td>
+<td>Network structure</td>
+<td><a href="http://networksciencebook.com/chapter/2">NETS.2</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>40</td>
+<td></td>
+<td>Network content and structure</td>
+<td><a href="https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python">WEB.10</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>41</td>
+<td>Machine learning</td>
+<td>Introduction to machine learning</td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.01-what-is-machine-learning.html">PDSH.5.1</a>, <a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.02-introducing-scikit-learn.html">PDSH.5.2</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>42</td>
+<td></td>
+<td>Linear regression</td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html">PDSH.5.6</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>43</td>
+<td></td>
+<td>Decision trees</td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.08-random-forests.html">PDSH.5.8</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>44</td>
+<td></td>
+<td>Clustering</td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.html">PDSH.5.11</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+<tr>
+<td>45</td>
+<td></td>
+<td>Course wrap-up</td>
+<td><a href="https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century">JOUR.3</a></td>
+<td><a href="">Introduction</a> <a href="">Warmup</a> <a href="">Workout</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code">Source Code</h2>
+<h2 id="software">Software</h2>
+<p>Python 3.7 or higher is required. The easy way to install it is with <a href="https://www.anaconda.com/download">Anaconda distribution</a>. Several other packages including Pandas, Altair and Scikit-learn are needed among others. A <code>requirements.txt</code> is
+provided. All required packages can be installed with <code>pip install -r requirements.txt</code></p>
+<h2 id="readings">Readings</h2>
+<p>This courses uses open access materials. I appreciate and thank authors and publishers
+who made these resources free to use.</p>
+<p>The numbers on the lists below match those in the table.</p>
+<ul>
+<li>
+<p>WTOP: <a href="https://jakevdp.github.io/WhirlwindTourOfPython/">A Whirlwind Tour of Python</a>: a fast-paced introduction to essential features of the Python language.</p>
+<ul>
+<li>1 <a href="http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/00-Introduction.ipynb">Introduction</a></li>
+<li>2 <a href="http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/01-How-to-Run-Python-Code.ipynb">How to Run Python Code</a></li>
+<li>3 <a href="http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/02-Basic-Python-Syntax.ipynb">Basic Python Syntax</a></li>
+<li>4 <a href="http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/03-Semantics-Variables.ipynb">Python Semantics: Variables</a></li>
+<li>5 <a href="http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/04-Semantics-Operators.ipynb">Python Semantics: Operators</a></li>
+<li>6 <a href="http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/05-Built-in-Scalar-Types.ipynb">Built-In Scalar Types</a></li>
+<li>7 <a href="http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/06-Built-in-Data-Structures.ipynb">Built-In Data Structures</a></li>
+<li>8 <a href="http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/07-Control-Flow-Statements.ipynb">Control Flow Statements</a></li>
+<li>9 <a href="http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/08-Defining-Functions.ipynb">Defining Functions</a></li>
+<li>10 <a href="http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/09-Errors-and-Exceptions.ipynb">Errors and Exceptions</a></li>
+<li>11 <a href="http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/10-Iterators.ipynb">Iterators</a></li>
+<li>12 <a href="http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/11-List-Comprehensions.ipynb">List Comprehensions</a></li>
+<li>13 <a href="http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/12-Generators.ipynb">Generators and Generator Expressions</a></li>
+<li>14 <a href="http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/13-Modules-and-Packages.ipynb">Modules and Packages</a></li>
+<li>15 <a href="http://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/14-Strings-and-Regular-Expressions.ipynb">Strings and Regular Expressions</a></li>
+</ul>
+</li>
+<li>
+<p>PDSH: <a href="https://jakevdp.github.io/PythonDataScienceHandbook">Python Data Science Handbook</a>: a complete coverage for modern Python tools for researchers and data scientists.</p>
+<ul>
+<li>3 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.00-Introduction-to-Pandas.ipynb">Data Manipulation with Pandas</a>
+<ul>
+<li>1 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.01-Introducing-Pandas-Objects.ipynb">Introducing Pandas Objects</a></li>
+<li>2 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.02-Data-Indexing-and-Selection.ipynb">Data Indexing and Selection</a></li>
+<li>3 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.03-Operations-in-Pandas.ipynb">Operating on Data in Pandas</a></li>
+<li>4 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.04-Missing-Values.ipynb">Handling Missing Data</a></li>
+<li>5 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.05-Hierarchical-Indexing.ipynb">Hierarchical Indexing</a></li>
+<li>6 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.06-Concat-And-Append.ipynb">Combining Datasets: Concat and Append</a></li>
+<li>7 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.07-Merge-and-Join.ipynb">Combining Datasets: Merge and Join</a></li>
+<li>8 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.08-Aggregation-and-Grouping.ipynb">Aggregation and Grouping</a></li>
+<li>9 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.09-Pivot-Tables.ipynb">Pivot Tables</a></li>
+<li>10 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.10-Working-With-Strings.ipynb">Vectorized String Operations</a></li>
+<li>11 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.11-Working-with-Time-Series.ipynb">Working with Time Series</a></li>
+<li>12 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/03.12-Performance-Eval-and-Query.ipynb">High-Performance Pandas: eval() and query()</a></li>
+</ul>
+</li>
+<li>5 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.00-Machine-Learning.ipynb">Machine Learning</a>
+<ul>
+<li>1 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.01-What-Is-Machine-Learning.ipynb">What Is Machine Learning?</a></li>
+<li>2 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.02-Introducing-Scikit-Learn.ipynb">Introducing Scikit-Learn</a></li>
+<li>3 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.03-Hyperparameters-and-Model-Validation.ipynb">Hyperparameters and Model Validation</a></li>
+<li>4 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.04-Feature-Engineering.ipynb">Feature Engineering</a></li>
+<li>5 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.05-Naive-Bayes.ipynb">In Depth: Naive Bayes Classification</a></li>
+<li>6 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.06-Linear-Regression.ipynb">In Depth: Linear Regression</a></li>
+<li>7 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.07-Support-Vector-Machines.ipynb">In-Depth: Support Vector Machines</a></li>
+<li>8 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.08-Random-Forests.ipynb">In-Depth: Decision Trees and Random Forests</a></li>
+<li>9 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.09-Principal-Component-Analysis.ipynb">In Depth: Principal Component Analysis</a></li>
+<li>10 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.10-Manifold-Learning.ipynb">In-Depth: Manifold Learning</a></li>
+<li>11 <a href="https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.11-K-Means.ipynb">In Depth: k-Means Clustering</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>VISU: <a href="https://github.com/uwdata/visualization-curriculum">Data Visualization Curriculum</a>: a data visualization curriculum of interactive notebooks from UW Interactive Data Lab.</p>
+<ul>
+<li>1 <a href="https://colab.research.google.com/github/uwdata/visualization-curriculum/blob/master/altair_introduction.ipynb">Introduction to Vega-Lite / Altair</a></li>
+<li>2 <a href="https://colab.research.google.com/github/uwdata/visualization-curriculum/blob/master/altair_marks_encoding.ipynb">Data Types, Graphical Marks, and Visual Encoding Channels</a></li>
+<li>3 <a href="https://colab.research.google.com/github/uwdata/visualization-curriculum/blob/master/altair_data_transformation.ipynb">Data Transformation</a></li>
+<li>4 <a href="https://colab.research.google.com/github/uwdata/visualization-curriculum/blob/master/altair_scales_axes_legends.ipynb">Scales, Axes, and Legends</a></li>
+<li>5 <a href="https://colab.research.google.com/github/uwdata/visualization-curriculum/blob/master/altair_view_composition.ipynb">Multi-View Composition</a></li>
+<li>6 <a href="https://github.com/uwdata/visualization-curriculum/blob/master/altair_interaction.ipynb">Interaction</a></li>
+<li>7 <a href="https://colab.research.google.com/github/uwdata/visualization-curriculum/blob/master/altair_cartographic.ipynb">Cartographic Visualization</a></li>
+</ul>
+</li>
+<li>
+<p>NETS: <a href="http://networksciencebook.com/">Network Science</a>: a freely available textbook for network science by Albert-László Barabási and others</p>
+<ul>
+<li>1:<a href="http://networksciencebook.com/chapter/1">Network Science Book: Chapter 1</a></li>
+<li>2:<a href="http://networksciencebook.com/chapter/2">Network Science Book: Chapter 2</a></li>
+</ul>
+</li>
+<li>
+<p>Articles from the web</p>
+<ul>
+<li>WEB.0: <a href="https://guides.github.com/features/mastering-markdown/">Mastering Markdown</a></li>
+<li>WEB.1: <a href="https://realpython.com/python-requests/">Python’s Requests Library (Guide)</a></li>
+<li>WEB.2: <a href="https://docs.quandl.com">Quandl API Documentation</a></li>
+<li>WEB.3: <a href="https://www.dataquest.io/blog/web-scraping-tutorial-python/">Python Web Scraping Using BeautifulSoup</a></li>
+<li>WEB.4: <a href="https://www.cs.ubc.ca/~tmm/courses/531-16/lectures/lect1.pdf">Intro, Data and Tasks, Marks and Channels</a></li>
+<li>WEB.5: <a href="https://seaborn.pydata.org/tutorial/relational.html">Visualizing statistical relationships</a></li>
+<li>WEB.6: <a href="https://seaborn.pydata.org/tutorial/categorical.html">Plotting with categorical data</a></li>
+<li>WEB.7: <a href="https://seaborn.pydata.org/tutorial/distributions.html">Visualizing the distribution of a dataset</a></li>
+<li>WEB.8: <a href="https://www.datacamp.com/community/tutorials/text-analytics-beginners-nltk">Text Analytics for Beginners using NLTK</a></li>
+<li>WEB.9: <a href="http://rwet.decontextualize.com/book/textblob/">Natural Language Basics with TextBlob</a></li>
+<li>WEB.10:<a href="https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python">Exploring and Analyzing Network Data with Python</a></li>
+<li>WEB.11:<a href="https://spacy.io/usage/spacy-101">spaCy 101: Everything you need to know</a></li>
+<li>WEB.12: <a href="https://www.dataquest.io/blog/python-api-tutorial/">Python API Tutorial: Getting Started with APIs</a></li>
+<li>WEB.13: <a href="https://www.howtographql.com/basics/1-graphql-is-the-better-rest/">GraphQL is the better REST</a></li>
+<li>WEB.14: <a href="https://www.datacamp.com/community/tutorials/python-xml-elementtree">Python XML with ElementTree: Beginner's Guide</a></li>
+<li>WEB.15: <a href="https://www.w3schools.com/xml/xquery_intro.asp">XQuery Tutorial</a></li>
+</ul>
+</li>
+<li>
+<p>Journal articles</p>
+<ul>
+<li>JOUR.1: <a href="https://www.academia.edu/33249922/Should_You_Pursue_a_Career_in_BI_Analytics">Watson, Hugh J. &quot;Should you pursue a career in BI/analytics.&quot; Business Intelligence Journal (2015).</a></li>
+<li>JOUR.2: <a href="https://www.researchgate.net/publication/316605154_Data_Visualization_Data_Interpreters_and_Storytelling">Watson, H. &quot;Data Visualization, Data Interpreters, and Storytelling.&quot; Business Intelligence Journal (2017)</a></li>
+<li>JOUR.3: <a href="https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century">Davenport, T. H., &amp; Patil, D. J. &quot;Data Scientist: The Sexiest Job of the 21st Century.&quot; Harvard business review (2012)</a></li>
+</ul>
+</li>
+</ul>
+
+    </body>
+    </html>
