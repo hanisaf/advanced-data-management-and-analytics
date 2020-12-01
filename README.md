@@ -1,4 +1,14 @@
-# Advanced Data Management and Analytics
+# Installation instructions
+
+Install the required packages and resources using:
+
+```
+pip install -r requirements.txt
+python -m textblob.download_corpora
+python -m spacy download en
+```
+
+# Advanced Data Management and Analytics Topics
 
 |  #  |             Theme             |                 Topics                  |                                                                                                 Readings                                                                                                 |                                                                                                              Video Lectures                                                                                                              |
 | --- | ----------------------------- | --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
