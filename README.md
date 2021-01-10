@@ -1,4 +1,3 @@
-UY
 # Launch with Binder
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/hanisaf/advanced-data-management-and-analytics/master)
