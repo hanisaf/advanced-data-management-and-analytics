@@ -18,3 +18,4 @@ networkx
 matplotlib
 scikit-learn
 xlrd
+pandas_datareader
